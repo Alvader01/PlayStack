@@ -1,0 +1,9 @@
+
+	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(æß°ÿÿÿÿÿ8ö¥¡¾¶2J$5580a9d9-4e49-435c-8421-3abbad3caaa1
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿJ$8f0d928e-f1f1-4ac9-b24f-f099277dd13e
+É
+java:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8Àš¾¶2J$c3f0a1f8-0891-48eb-9928-fc5531eaab64
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ËÆ€ï8ÀÓ¤¾¶2J$1934a120-f326-425b-8194-821d283392c5
+H
+java:S1168&"+Return an empty collection instead of null.(¥¹ï8•íåÃ¶2

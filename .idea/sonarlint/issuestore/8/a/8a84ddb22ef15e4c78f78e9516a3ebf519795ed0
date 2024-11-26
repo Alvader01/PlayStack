@@ -1,0 +1,16 @@
+
+	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(ÃŸè°ùÿÿÿÿ8ÅÚ½½¶2J$ad5ccb03-7a43-4327-97c9-88132e317186
+	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(¢Ğùÿÿÿÿ8ÅÚ½½¶2J$e9c44679-8f20-4113-aa27-501f268a31d3
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8ÈÚ½½¶2J$23f9e8a6-0146-4ffe-85d7-293698a528e0
+Ê
+java:S1186Ñ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8ÍÚ½½¶2J$82568a1c-ba4a-4487-829f-9f6a86f388f7
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(éˆŸÌ8ÏÚ½½¶2J$4b3eca2d-93dc-46d7-b4bf-39dc703b52ec
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ş¿¼Âúÿÿÿÿ8ĞÚ½½¶2J$7ccda21b-0444-458e-a84d-cb6d41bbd7d1
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(µª³É8ĞÚ½½¶2J$70526f66-b91d-4158-9fcf-7f76068c43c0
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‹„íØ8ĞÚ½½¶2J$d16a5cb1-fa26-43d7-b01b-b60367ef6326
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÃÌä«şÿÿÿÿ8ĞÚ½½¶2J$040d5ec1-e353-4716-8fbd-d507acd0e88b

@@ -1,0 +1,10 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ãİòè8öËÏÃ¶2J$6e95fe3e-52fd-4989-9f5b-c848e68fc11d
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“îÓ»8÷ËÏÃ¶2J$fae2d3f2-3e0a-41d0-97f4-419eb92a6ab2
+
+java:S2095"EUse try-with-resources or close this "UserDAO" in a "finally" clause.(¿¥½°ıÿÿÿÿ8üËÏÃ¶2J$96ca1338-dedf-4dc8-8a04-e412dd6c4196
+r	java:S106"+Replace this use of System.out by a logger.(ç…è¹øÿÿÿÿ8ÌÏÃ¶2J$74a0d498-0caa-4af6-b634-740a17494aa1
+r	java:S106"+Replace this use of System.out by a logger.(Ö¸Ó±ÿÿÿÿÿ8‚ÌÏÃ¶2J$548cfe5c-36b2-4616-8444-f77100744f01
+m	java:S106"+Replace this use of System.out by a logger.(¢ûÜ‘8‚ÌÏÃ¶2J$e445b5c6-ce7f-43bc-b35b-4e8ea8a0236c
+r	java:S106"+Replace this use of System.out by a logger.(—¹í£øÿÿÿÿ8‚ÌÏÃ¶2J$9b1a7e25-9039-4b14-8611-e6994a083288
+r	java:S106"+Replace this use of System.out by a logger.(¥ĞÕŸûÿÿÿÿ8‚ÌÏÃ¶2J$8d08903d-01b4-49de-8b8c-b2baebd4336a

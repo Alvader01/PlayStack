@@ -5,6 +5,7 @@ module com.github.alvader01 {
     requires java.sql;
 
     opens com.github.alvader01 to javafx.fxml;
+    opens com.github.alvader01.Model.Connection to java.xml.bind;
     exports com.github.alvader01;
     exports com.github.alvader01.View;
     opens com.github.alvader01.View to javafx.fxml;

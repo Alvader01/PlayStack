@@ -1,0 +1,5 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ì…üğ8ˆÚ¾Ã¶2J$a1a809d3-207d-4e41-84a5-b5af0f760282
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“îÓ»J$29010d73-5761-4745-a321-f04aeb27a0e0
+g
+java:S2095"EUse try-with-resources or close this "UserDAO" in a "finally" clause.(¿¥½°ıÿÿÿÿ8Ü‹ÁÃ¶2

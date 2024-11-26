@@ -1,0 +1,7 @@
+
+‹
+java:S1192	"HDefine a constant instead of duplicating this literal "Alvader" 3 times.(€Š“Ö8¹Î³Ã¶2J$0be796c3-b033-441f-b62f-c6018966364f
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¦×„Ç8»Î³Ã¶2J$aa090a11-3bd2-41b9-b24c-580e2036e42c
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“îÓ»J$230ebb7a-ea97-4c38-a5c3-87b44cf86674
+g
+java:S2095"EUse try-with-resources or close this "UserDAO" in a "finally" clause.(¿¥½°ıÿÿÿÿ8Ï¬´Ã¶2
