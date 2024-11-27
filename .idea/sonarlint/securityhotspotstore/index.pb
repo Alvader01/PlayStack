@@ -8,8 +8,6 @@ h
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-n
->src/main/java/com/github/alvader01/View/PrimaryController.java,9\d\9dd173222061c498ded1de20f3da99d0078d8613
 [
 +src/main/java/com/github/alvader01/App.java,e\b\eb6af8189ac6a53092e58f3641b90bab59c60943
 z
@@ -52,3 +50,23 @@ j
 :src/main/java/com/github/alvader01/Tests/testFindById.java,f\1\f1860b38c92bfea46171c1da7610731018d02b4e
 h
 8src/main/java/com/github/alvader01/Tests/testUpdate.java,b\e\be376c52c4541eb7a2e2e0687722bdf911374c80
+j
+:src/main/java/com/github/alvader01/View/AppController.java,b\6\b65270a48320161d2998ebce8be8a0096f3bc7d7
+g
+7src/main/java/com/github/alvader01/View/Controller.java,4\f\4f703647c5096764d7c2341576b8e9d1a9bf30b9
+c
+3src/main/java/com/github/alvader01/View/Scenes.java,e\b\eb1fe5abbe4d13660fe36d168be237134fe58168
+a
+1src/main/java/com/github/alvader01/View/View.java,4\d\4d4407222ca75470e9efe52d4e5d4760baa12682
+g
+7src/main/java/com/github/alvader01/view/Controller.java,5\a\5a7ebec297c3f20cbe67f72aeacf9f38e176675e
+c
+3src/main/java/com/github/alvader01/view/Scenes.java,b\4\b451890b85ba4ff60c13de8f5f50421be537b3b3
+j
+:src/main/java/com/github/alvader01/view/AppController.java,5\1\515deb43cd3c7236f98929d1c3bf10065ad2cedf
+a
+1src/main/java/com/github/alvader01/view/View.java,9\5\95c49072bb4d6d7a73690bbdba30c8aae705c87c
+l
+<src/main/java/com/github/alvader01/View/LoginController.java,d\b\db9b51c3ce90988b51c7fa66e2afcab1b364db38
+o
+?src/main/java/com/github/alvader01/View/RegisterController.java,3\0\30a69ba9c3cfc94c819a9a0304a08d997e4af9ab

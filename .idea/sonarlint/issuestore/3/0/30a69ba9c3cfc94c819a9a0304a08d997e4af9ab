@@ -1,0 +1,14 @@
+
+
+java:S14889"\Immediately return this expression instead of assigning it to the temporary variable "user".(øşŸÇùÿÿÿÿJ$52c89aa8-01a9-4b8f-b3b3-d6873de14dc9
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£íñƒÿÿÿÿÿJ$5468b005-e30d-4842-8daf-85c6c5cb0302
+½
+java:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷’²ÉJ$5d8da96c-0947-4186-8f5a-ca7fc746afd1
+Â
+java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®ÒêúÿÿÿÿJ$81b96f93-a9e1-4a40-944b-7d6327a508d7
+Â
+java:S11860"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿJ$711346f4-1ab9-477a-a3a5-90a3f4f3eded
+	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¶üŠùÿÿÿÿJ$798a43a2-9180-45e9-85dd-a2994e1478de
+‡
+java:S5998f"LRefactor this repetition that can lead to a stack overflow for large inputs.(õæˆBJ$ece3089a-106b-4f7a-a638-acb503f8874e
+‰	java:S100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÒ§ÚJ$a300a977-de78-4b09-81b3-19c0914075d3

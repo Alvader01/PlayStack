@@ -1,3 +1,18 @@
 
-r
-java:S2696"6Make the enclosing method "static" or remove this set.(¯Ø—•J$99e4ef86-88f2-4f54-bd6e-cd449a17b85f
+”
+java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõ8 åöÃ¶2J$d0e0170d-4309-43e8-bb0e-74b50f83f74e
+”
+java:S1104"QMake stage a static final constant or non-public and provide accessors if needed.(œ‰à8 åöÃ¶2J$9a1a5d7c-84f2-4957-9107-beb60108ad64
+ 
+java:S1104"]Make currentController a static final constant or non-public and provide accessors if needed.(½«İ8 åöÃ¶2J$94d898c3-704f-471d-8852-677d3eb3f498
+n
+java:S1444"+Make this "public static scene" field final(äõ8 åöÃ¶2J$009bd310-7114-440d-8bc3-945b6aa3ac6a
+n
+java:S1444"+Make this "public static stage" field final(œ‰à8¡åöÃ¶2J$cde20be1-835f-464c-ac41-ce02da880a24
+z
+java:S1444"7Make this "public static currentController" field final(½«İ8¡åöÃ¶2J$678bc0a7-6010-4521-a990-0bc12eaced17
+~
+java:S2696"6Make the enclosing method "static" or remove this set.(¢¹ıœûÿÿÿÿ8©åöÃ¶2J$6b1dbdd9-ded4-4f01-b2d0-935305321e33
+~
+java:S2696"6Make the enclosing method "static" or remove this set.(ßÆÎ­şÿÿÿÿ8°åöÃ¶2J$88d745e6-6aec-4aeb-b7f7-f74f889d7188
+~	java:S125 "<This block of commented-out lines of code should be removed.(ÃˆÀ‚8²åöÃ¶2J$7847f34f-fab8-446c-9a60-c5db4767dd3b
