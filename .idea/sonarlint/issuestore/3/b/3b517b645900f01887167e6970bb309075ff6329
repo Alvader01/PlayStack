@@ -1,6 +1,21 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8ì€îÃ¶2J$f6d6d913-531c-4193-b858-5122e11e4c16
+ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¶½¸Å8òÁõæ¶2J$116fcfa3-46cb-44a4-aace-be2f8c909bef
+	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(áÎê¥øÿÿÿÿ8óÁõæ¶2J$a2e0c487-3b6c-4b03-abbe-cbb8cbeae6df
+	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(ÿßê€øÿÿÿÿ8óÁõæ¶2J$15db5fbe-79ef-48a5-9046-f458abb6ed93
+ˆ	java:S112u"FDefine and throw a dedicated exception instead of using a generic one.(ìÖ¯½8óÁõæ¶2J$4b2f8001-22e8-4869-ac37-7ca288187297
+‰	java:S112Š"FDefine and throw a dedicated exception instead of using a generic one.(Ûß›8óÁõæ¶2J$5d4c5ecd-026e-403b-9a67-21d73ec0a26d
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8õÁõæ¶2J$3487b4ab-c856-43e5-9c4a-89d179f6d7cf
 É
-java:S1186$"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8•¤îÃ¶2J$bce35f7f-dd3b-4d23-be19-dc6110dc91f1
+java:S1186^"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8üÁõæ¶2J$6d1142b2-b9a1-49a4-8dea-833e533e628a
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(…şà°øÿÿÿÿ8ÿÁõæ¶2J$f3efe17e-ac5f-4fe3-a5e2-77187df52745
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(›ıÿÿÿÿÿ8ÿÁõæ¶2J$6770f108-930e-4d6a-bae0-ee2f023cf5d9
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ìˆ»íşÿÿÿÿ8ÿÁõæ¶2J$311f16b5-cbea-4100-8759-b5fe8e000618
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(×Ğ÷Æ8ÿÁõæ¶2J$f56b5fe9-2d1e-4653-a1a4-d41298ad0303
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÖÇÓøÿÿÿÿ8ÿÁõæ¶2J$137536d6-76b7-4b27-a743-2da1a6f25bc6
 n
-java:S1168 "+Return an empty collection instead of null.(¥¹ï8˜¤îÃ¶2J$f63cccc8-d054-404b-953c-e3db94fb8c5f
+java:S1168Z"+Return an empty collection instead of null.(¥¹ï8„Âõæ¶2J$5889e8c6-26d7-4370-bd4e-e1279754cf42

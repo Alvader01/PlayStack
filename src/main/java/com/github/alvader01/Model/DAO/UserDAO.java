@@ -95,8 +95,8 @@ public class UserDAO implements DAO<User, String> {
                 for (Category category : categoriesToBeDeleted) {
                     CategoryDAO.build().delete(category);
                 }
-                for (Category fishTank : categoriesAfter) {
-                    CategoryDAO.build().save(fishTank);
+                for (Category category : categoriesAfter) {
+                    CategoryDAO.build().save(category);
                 }
             }
 
