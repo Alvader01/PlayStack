@@ -1,0 +1,25 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£íñƒÿÿÿÿÿ8òŠ¬Â·2J$75ce00f3-8b65-470f-8bbf-efbb241d3e5f
+—
+java:S2095g"OUse try-with-resources or close this "GameInCategoryDAO" in a "finally" clause.(Ğ½ö–úÿÿÿÿ8ÒóşÂ·2J$322b2761-b955-43cd-a6e5-c11ee38148c4
+ˆ
+java:S2095}"EUse try-with-resources or close this "GameDAO" in a "finally" clause.(ö®íª8ƒ½‚Ã·2J$48371c1c-edd6-4e9c-b793-882bd6321461
+‰
+java:S2095™"EUse try-with-resources or close this "GameDAO" in a "finally" clause.(ö®íª8ö¢ƒÃ·2J$a43f23b0-7de4-4f78-a0d2-153873210413
+‘
+java:S2095x"IUse try-with-resources or close this "CategoryDAO" in a "finally" clause.(£˜ñüÿÿÿÿ8÷¢ƒÃ·2J$e8a0ebbd-4023-4b85-9c4e-8a54dd5b36f0
+’
+java:S2095”"IUse try-with-resources or close this "CategoryDAO" in a "finally" clause.(£˜ñüÿÿÿÿ8ƒ½‚Ã·2J$c32c7dfd-f223-4aee-a6d0-87576ca13e3c
+¢	java:S116"[Rename this field "CategoryComboBox" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İê’Øÿÿÿÿÿ8„‹¬Â·2J$a1758fc0-ebcb-4c54-a2af-fe8db45be827
+Ÿ	java:S116"XRename this field "GamesComboBox" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¼ºÖûÿÿÿÿ8„‹¬Â·2J$bd7a3a1a-414d-4d72-81b0-484bbcc3db62
+¤	java:S116!"]Rename this field "DeleteGameComboBox" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã½µûùÿÿÿÿ8„‹¬Â·2J$735755cf-cd33-4f7c-aa98-6219685418f3
+š	java:S116#"XRename this field "GameTableView" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚éŠ“8„‹¬Â·2J$8e6138de-408a-494d-a782-4b60e1d520de
+ 	java:S116%"YRename this field "GameNameColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Æˆøÿÿÿÿ8„‹¬Â·2J$fc45e5c7-aa21-4926-8db0-6be3b4734103
+¤	java:S116'"]Rename this field "GamePlatformColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üõ—†ıÿÿÿÿ8„‹¬Â·2J$d74d8840-3b26-40eb-94e5-115fafb097fe
+›	java:S116/"TRename this field "AddButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¢¬øÿÿÿÿ8¸ĞÊÂ·2J$c7b28700-b16a-454d-8cc8-bc304aad6daa
+	java:S1161"WRename this field "DeleteButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôë˜³ùÿÿÿÿ8¸ĞÊÂ·2J$4bc3cd70-2b7b-4c81-98d1-df1d3eb125a8
+É
+java:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8…‹¬Â·2J$36a9476b-b7b3-4846-8ce7-962daf2d1ac2
+¨
+java:S14505"`Remove the "currentCategoryId" field and declare it as a local variable in the relevant methods.(õ´şçıÿÿÿÿ8†‹¬Â·2J$2ff846a3-b8ab-4d20-b9f2-c6d9f75b4c8d
+‘	java:S100«"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÒ§Ú8‘‹¬Â·2J$1b32bb23-5789-4ff9-8850-de0c79c04718

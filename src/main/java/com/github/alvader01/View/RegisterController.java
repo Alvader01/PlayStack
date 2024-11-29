@@ -98,7 +98,7 @@ public class RegisterController extends Controller implements Initializable {
      * @param email The email address to validate.
      * @return True if the email address is valid, false otherwise.
      */
-    private boolean isValidEmail(String email) {
+    public static boolean isValidEmail(String email) {
         String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$";
         return email.matches(emailRegex);
     }

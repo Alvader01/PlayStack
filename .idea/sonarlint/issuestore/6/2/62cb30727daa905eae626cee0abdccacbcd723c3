@@ -1,0 +1,9 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£íñƒÿÿÿÿÿ8ìß£ç¶2J$b4bcee23-c6e2-4f3a-b858-2c29ca33dfa5
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷’²É8òß£ç¶2J$782d0a68-63c9-432b-9984-49ae4e017b54
+É
+java:S1186#"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8òß£ç¶2J$3441d8e1-ef56-4791-af1d-d05e0cc9f612
+É
+java:S1186("€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8òß£ç¶2J$b572c807-2b36-4f6e-b5cf-918d01c61e04
+	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¥˜¦8õß£ç¶2J$0d0bb6ad-5160-42b5-abbf-8039587c5de8

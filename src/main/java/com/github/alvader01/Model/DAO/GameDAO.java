@@ -13,13 +13,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GameDAO implements DAO<Game, Integer> {
-    private final static String INSERT="INSERT INTO game (id,name,platform,description) VALUES (?,?,?,?)";
-    private final static String UPDATE="UPDATE game SET name = ?, platform = ?, description = ? WHERE id = ?";
-    private final static String FINDALL="SELECT g.id, g.name, g.platform, g.description FROM game AS g";
-    private final static String FINDBYID="SELECT g.id, g.name, g.platform, g.description FROM game AS g WHERE g.id = ?";
-    private final static String FINDBYNAME="SELECT g.id, g.name, g.platform, g.description FROM game AS g WHERE g.name = ?";
-    private final static String DELETE="DELETE FROM game WHERE id = ?";
-    private final static String FINDINCATEGORY="SELECT g.id, g.name, g.platform, g.description FROM game AS g WHERE g.id = ?";
+    private final static String INSERT = "INSERT INTO game (id,name, platform, user_username) VALUES (?, ?, ?, ?)";
+    private final static String UPDATE = "UPDATE game SET name = ?, platform = ?  WHERE id = ?";
+    private final static String FINDALL = "SELECT g.id, g.name, g.platform  FROM game AS g";
+    private final static String FINDBYID = "SELECT g.id, g.name, g.platform FROM game AS g WHERE g.id = ?";
+    private final static String FINDBYNAME = "SELECT g.id, g.name, g.platform FROM game AS g WHERE g.name = ?";
+    private final static String FINDBYUSERNAME = "SELECT id, name, platform FROM game WHERE user_username = ?";
+    private final static String DELETE = "DELETE FROM game WHERE id = ?";
+    private final static String FINDINCATEGORY = "SELECT g.id, g.name, g.platform FROM game AS g WHERE g.id = ?";
 
     @Override
     public Game save(Game game) {
@@ -34,25 +35,21 @@ public class GameDAO implements DAO<Game, Integer> {
                 ps.setInt(1, game.getId());
                 ps.setString(2, game.getName());
                 ps.setString(3, game.getPlatform());
-                ps.setString(4, game.getDescription());
-                ps.setString(5, currentUser.getUsername());
+                ps.setString(4, currentUser.getUsername());
                 ps.executeUpdate();
             } catch (SQLException e) {
                 throw new RuntimeException("Error al guardar el juego", e);
             }
         }
         return result;
-
     }
-
 
     @Override
     public Game update(Game game) {
         try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(UPDATE)) {
             ps.setString(1, game.getName());
             ps.setString(2, game.getPlatform());
-            ps.setString(3, game.getDescription());
-            ps.setInt(4, game.getId());
+            ps.setInt(3, game.getId());
 
             ps.executeUpdate();
         } catch (SQLException e) {
@@ -62,8 +59,6 @@ public class GameDAO implements DAO<Game, Integer> {
         return game;
     }
 
-
-
     @Override
     public Game delete(Game game) throws SQLException {
         try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(DELETE)) {
@@ -71,12 +66,11 @@ public class GameDAO implements DAO<Game, Integer> {
 
             ps.executeUpdate();
         } catch (SQLException e) {
-            throw new RuntimeException("Error al eliminar la especie", e);
+            throw new RuntimeException("Error al eliminar el juego", e);
         }
 
         return game;
     }
-
 
     @Override
     public Game findById(Integer id) {
@@ -90,8 +84,7 @@ public class GameDAO implements DAO<Game, Integer> {
                     game = new Game();
                     game.setId(rs.getInt("id"));
                     game.setName(rs.getString("name"));
-                    game.setPlatform(rs.getString("dimension"));
-                    game.setDescription(rs.getString("description"));
+                    game.setPlatform(rs.getString("platform"));
                 }
             }
         } catch (SQLException e) {
@@ -100,7 +93,6 @@ public class GameDAO implements DAO<Game, Integer> {
 
         return game;
     }
-
 
     @Override
     public List<Game> findAll() {
@@ -113,8 +105,8 @@ public class GameDAO implements DAO<Game, Integer> {
                 Game game = new Game();
                 game.setId(rs.getInt("id"));
                 game.setName(rs.getString("name"));
-                game.setPlatform(rs.getString("dimension"));
-                game.setDescription(rs.getString("description"));
+                game.setPlatform(rs.getString("platform"));
+
 
                 result.add(game);
             }
@@ -132,10 +124,10 @@ public class GameDAO implements DAO<Game, Integer> {
     }
 
     /**
-     * Retrieves a Species object from the database by its name.
+     * Retrieves a Game object from the database by its name.
      *
-     * @param name   The name of the Species object to retrieve.
-     * @return         The retrieved Species object, or null if not found.
+     * @param name The name of the Game object to retrieve.
+     * @return The retrieved Game object, or null if not found.
      */
     public Game findGameByName(String name) {
         Game result = null;
@@ -146,8 +138,8 @@ public class GameDAO implements DAO<Game, Integer> {
                     Game g = new Game();
                     g.setId(rs.getInt("id"));
                     g.setName(rs.getString("name"));
-                    g.setPlatform(rs.getString("dimension"));
-                    g.setDescription(rs.getString("description"));
+                    g.setPlatform(rs.getString("platform"));
+
                     result = g;
                 }
             }
@@ -157,11 +149,9 @@ public class GameDAO implements DAO<Game, Integer> {
         return result;
     }
 
-
-
     public boolean exists(Integer id) {
         try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(FINDBYID)) {
-            ps.setString(1, id.toString());
+            ps.setInt(1, id);
             ResultSet res = ps.executeQuery();
             return res.next();
         } catch (SQLException e) {
@@ -169,12 +159,10 @@ public class GameDAO implements DAO<Game, Integer> {
             return false;
         }
     }
-    public static GameDAO build(){
+
+    public static GameDAO build() {
         return new GameDAO();
     }
-
-
-
 
     public List<Game> findInCategory(Category category) {
         List<Game> gameInCategory = new ArrayList<>();
@@ -185,6 +173,9 @@ public class GameDAO implements DAO<Game, Integer> {
             try (ResultSet rs = ps.executeQuery()) {
                 while (rs.next()) {
                     Game game = new Game();
+                    game.setId(rs.getInt("id"));
+                    game.setName(rs.getString("name"));
+                    game.setPlatform(rs.getString("platform"));
                     gameInCategory.add(game);
                 }
             }
@@ -196,4 +187,26 @@ public class GameDAO implements DAO<Game, Integer> {
         return gameInCategory;
     }
 
+    public List<Game> findGamesByUser(String username) {
+        List<Game> games = new ArrayList<>();
+
+        try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(FINDBYUSERNAME)) {
+            ps.setString(1, username);
+            ResultSet resultSet = ps.executeQuery();
+
+            while (resultSet.next()) {
+                Game game = new Game(
+                        resultSet.getInt("id"),
+                        resultSet.getString("name"),
+                        resultSet.getString("platform")
+                );
+                games.add(game);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return games;
+    }
 }
+

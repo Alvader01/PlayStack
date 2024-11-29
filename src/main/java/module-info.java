@@ -9,4 +9,6 @@ module com.github.alvader01 {
     exports com.github.alvader01;
     exports com.github.alvader01.View;
     opens com.github.alvader01.View to javafx.fxml;
+    exports com.github.alvader01.Model.Entity;
+    opens com.github.alvader01.Model.Entity to javafx.base;
 }

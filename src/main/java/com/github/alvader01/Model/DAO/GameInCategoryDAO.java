@@ -15,9 +15,8 @@ public class GameInCategoryDAO implements DAO<GameInCategory, Integer> {
     private final static String ADDGAMEINCATEGORY = "INSERT INTO Holds (category_id, game_id) VALUES (?, ?)";
     private final static String DELETEGAMEFROMCATEGORY = "DELETE FROM Holds WHERE category_id = ? AND game_id = ?";
     private final static String FINDINCATEGORY = "SELECT COUNT(*) FROM Holds WHERE category_id = ? AND game_id = ?\n";
-    private final static String FINDGAMEBYID = "SELECT id, name, platform, description FROM Game WHERE id = ?";
-    private final static String FINDALLGAMEINCATEGORY = "SELECT g.id, g.name, g.platform, g.description FROM Game AS g JOIN Holds AS h ON g.id = h.game_id WHERE h.category_id = ?";
-
+    private final static String FINDGAMEBYID = "SELECT id, name, platform FROM Game WHERE id = ?";
+    private final static String FINDALLGAMEINCATEGORY = "SELECT g.id, g.name, g.platform FROM Game g JOIN Holds h ON g.id = h.game_id WHERE h.category_id = ?";
 
     public void addGameToCategory(int categoryId, int gameId) {
         try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(ADDGAMEINCATEGORY)) {
@@ -42,7 +41,7 @@ public class GameInCategoryDAO implements DAO<GameInCategory, Integer> {
 
     public List<Game> findAllGamesInCategory(int categoryId) {
         List<Game> gameList = new ArrayList<>();
-
+        System.out.println("categoryId: " + categoryId);
         try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(FINDALLGAMEINCATEGORY)) {
             ps.setInt(1, categoryId);
             ResultSet rs = ps.executeQuery();
@@ -51,13 +50,13 @@ public class GameInCategoryDAO implements DAO<GameInCategory, Integer> {
                 int id = rs.getInt("id");
                 String name = rs.getString("name");
                 String platform = rs.getString("platform");
-                String description = rs.getString("description");
 
 
-                Game game = new Game(id, name, platform, description);
+                Game game = new Game(id, name, platform);
                 gameList.add(game);
             }
         } catch (SQLException e) {
+            e.printStackTrace();
             throw new RuntimeException("Error al encontrar las especies en el acuario", e);
         }
 
@@ -109,9 +108,8 @@ public class GameInCategoryDAO implements DAO<GameInCategory, Integer> {
                 int id = rs.getInt("id");
                 String name = rs.getString("name");
                 String platform = rs.getString("platform");
-                String description = rs.getString("description");
 
-                game = new Game(id, name, platform, description);
+                game = new Game(id, name, platform);
             }
         } catch (SQLException e) {
             throw new RuntimeException("Error al encontrar el juego por ID", e);

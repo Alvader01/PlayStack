@@ -19,30 +19,28 @@ public class CategoryDAO implements DAO<Category, Integer> {
     private final static String FINDALL = "SELECT c.id, c.name, c.description FROM Category AS c";
     private final static String FINDBYID = "SELECT c.id, c.name, c.description FROM Category AS c WHERE c.id = ?";
     private final static String DELETE = "DELETE FROM Category WHERE id = ?";
-    private final static String FINDBYUSER = "SELECT * FROM category WHERE username = ?";
+    private final static String FINDBYUSER = "SELECT * FROM Category WHERE user_username = ?";
 
 
 
 
     public Category saveCategory(Category category, User currentUser) {
-        Category result = new Category();
-        Category c = findById(category.getId());
-        if (c == null) {
-            try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(INSERT)) {
-                ps.setString(1, category.getName());
-                ps.setString(2, category.getDescription());
-                ps.setString(3, category.getDescription());
-                ps.setString(4, currentUser.getUsername());
-                ps.executeUpdate();
+        Category result = null;
+        try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(INSERT)) {
+            ps.setString(1, category.getName());
+            ps.setString(2, category.getDescription());
+            ps.setString(3, currentUser.getUsername());
+            ps.executeUpdate();
 
-                if (category.getGames() != null) {
-                    for (Game game : category.getGames()) {
-                        GameDAO.build().save(game);
-                    }
-                }
-            } catch (SQLException e) {
-                throw new RuntimeException("Error al guardar el usuario", e);
+            ResultSet rs = ps.getGeneratedKeys();
+            if (rs.next()) {
+                result = new Category();
+                result.setId(rs.getInt(1));
+                result.setName(category.getName());
+                result.setDescription(category.getDescription());
             }
+        } catch (SQLException e) {
+            throw new RuntimeException("Error al guardar la categoría", e);
         }
         return result;
     }
@@ -160,11 +158,11 @@ public class CategoryDAO implements DAO<Category, Integer> {
                 Category category = new Category();
                 category.setId(rs.getInt("id"));
                 category.setName(rs.getString("name"));
-
+                category.setDescription(rs.getString("description"));
                 categories.add(category);
             }
         } catch (SQLException e) {
-            throw new RuntimeException("Error al buscar las categorias del usuario", e);
+            throw new RuntimeException("Error al buscar las categorías del usuario", e);
         }
 
         return categories;

@@ -1,0 +1,18 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£íñƒÿÿÿÿÿ8ÙÑç”·2J$a1559db7-6eb5-44f5-a806-8470b4f32488
+‹
+java:S2095l"IUse try-with-resources or close this "CategoryDAO" in a "finally" clause.(‹—-8£ç±½·2J$41b4b5e3-adcb-41c1-966f-8a3632483595
+Œ
+java:S2095”"IUse try-with-resources or close this "CategoryDAO" in a "finally" clause.(‹—-8›ŠÓ¼·2J$6f8cfbee-b3d9-4c8e-b634-4ee872de622e
+¢	java:S116"[Rename this field "CategoryComboBox" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İê’Øÿÿÿÿÿ8ÒçÒ¼·2J$4eca48b4-fb04-4a08-95aa-1a69a2b7a604
+	java:S116"\Rename this field "CategoryTableView" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã²¬ˆ8ÓçÒ¼·2J$f8354bf7-acb2-4953-86ef-555f2c78a2d2
+•	java:S116"SRename this field "IdColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢èİ×8ÓçÒ¼·2J$5ce53296-9c32-4c1b-bb71-76ddd530cc1b
+œ	java:S116"URename this field "NameColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ı€øÿÿÿÿ8ÓçÒ¼·2J$8945f0d0-9f76-4be9-903d-6c83ca8953e6
+	java:S116!"\Rename this field "DescriptionColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é“’8ÓçÒ¼·2J$0c4bd6eb-0858-4fb4-89a3-1f208da227a8
+É
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8åï¾·2J$6bcf4513-a8f6-4b6b-aeb2-7552b391bf10
+›
+java:S1602?"SRemove useless curly braces around statement and then remove useless return keyword(Å÷æ±ıÿÿÿÿ8ªç±½·2J$7d817edb-b6f7-4c79-9d17-001b16e06b88
+¡
+java:S1171C"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8¬ç±½·2J$9c091e2d-175d-49f1-9046-89825c030fef
+‘	java:S100«"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÒ§Ú8àçÒ¼·2J$9bd58fe2-e0df-4c92-9665-0280555fc6f3

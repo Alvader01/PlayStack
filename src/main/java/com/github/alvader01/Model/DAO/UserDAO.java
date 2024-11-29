@@ -139,8 +139,20 @@ public class UserDAO implements DAO<User, String> {
 
     public User findByUsername(String username) {
         User result = null;
+        Connection conn = ConnectionMariaDB.getConnection();
 
-        try (PreparedStatement ps = ConnectionMariaDB.getConnection().prepareStatement(FINDBYUSERNAME)) {
+        try {
+            if (conn == null || conn.isClosed()) {
+                System.out.println("Conexión cerrada, intentando reconectar...");
+                conn = ConnectionMariaDB.getConnection();
+                if (conn == null || conn.isClosed()) {
+                    System.out.println("No se pudo obtener una conexión.");
+                    return null;
+                }
+            }
+
+
+            PreparedStatement ps = conn.prepareStatement(FINDBYUSERNAME);
             ps.setString(1, username);
             ResultSet res = ps.executeQuery();
 
@@ -150,7 +162,6 @@ public class UserDAO implements DAO<User, String> {
                 result.setName(res.getString("name"));
                 result.setPassword(res.getString("password"));
                 result.setEmail(res.getString("email"));
-
             }
             res.close();
         } catch (SQLException e) {

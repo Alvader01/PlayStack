@@ -1,11 +1,15 @@
 
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜úÒíüÿÿÿÿJ$523d5f2d-9f3f-4f3e-9665-13ae35947dfd
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜úÒíüÿÿÿÿJ$575d1db0-48b2-427b-ba2b-222cf2969881
 œ
-java:S3008"TRename this field "_instance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ Åùÿÿÿÿ8©Òà»¶2J$ed0ca6ef-5f0f-4507-9928-cc8ad1b2ccea
+java:S3008"TRename this field "_instance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ Åùÿÿÿÿ8½‡È”·2J$68a54e3b-5ece-4b3e-bfb2-387a01549f8c
 
 java:S1124
-"EReorder the modifiers to comply with the Java Language Specification.(¬»˜ùÿÿÿÿ8­Òà»¶2J$dc1bae97-0966-4564-8ad0-4c06c412bbc3
+"EReorder the modifiers to comply with the Java Language Specification.(¬»˜ùÿÿÿÿ8­Òà»¶2J$c739e292-19cc-4cb0-8808-6ffca50ab0bf
 i
-java:S3010"!Remove this assignment of "conn".(æ‰¢Ùüÿÿÿÿ8®Òà»¶2J$1946630b-aadc-49b3-a038-8e834b21358f
+java:S3010"!Remove this assignment of "conn".(æ‰¢Ùüÿÿÿÿ8Â‡È”·2J$eee8038e-364d-41a6-9499-fe6800e92161
 i
-java:S3010"!Remove this assignment of "conn".(€×³›ÿÿÿÿÿ8®Òà»¶2J$1e3f4625-85c6-4efb-bfd6-a72a31c6d881
+java:S3010"!Remove this assignment of "conn".(€×³›ÿÿÿÿÿ8Â‡È”·2J$a5561641-16b9-41fd-b28a-d9ebd1a9addf
+
+java:S1905"7Remove this unnecessary cast to "ConnectionProperties".(ä¼úşÿÿÿÿ8Ã‡È”·2J$f79fc9fc-ad0a-417a-aed6-60101f5daced
+x
+java:S2209#"5Change this instance-reference to a static reference.(®Í–8Ë‡È”·2J$90414c02-baba-456a-b867-fd0490949d9b

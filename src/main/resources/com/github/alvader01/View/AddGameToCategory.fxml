@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.alvader01.View.AddGameInCategoryController">
+   <children>
+      <Text fill="#4851ff" layoutX="112.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lista de juegos en la categoria seleccionada" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Math" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#4851ff" layoutX="8.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Elige el juego para añadir" textAlignment="CENTER" wrappingWidth="208.462646484375">
+         <font>
+            <Font name="Cambria Math" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#4851ff" layoutX="241.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Elige la categoria" textAlignment="CENTER" wrappingWidth="294.867431640625">
+         <font>
+            <Font name="Cambria Math" size="30.0" />
+         </font>
+      </Text>
+      <Line endX="308.849609375" endY="-6.999992370605469" layoutX="359.0" layoutY="81.0" startX="-247.0" startY="-6.999992370605469" />
+      <Line endX="119.23825073242188" layoutX="90.0" layoutY="349.0" startX="-74.99999237060547" />
+      <Line endX="147.80001831054688" endY="-3.0517578125E-5" layoutX="353.0" layoutY="347.0" startX="-84.19998168945312" startY="-3.0517578125E-5" />
+      <ComboBox fx:id="GamesComboBox" layoutX="37.0" layoutY="359.0" prefWidth="150.0" promptText="Juegos" />
+      <ComboBox fx:id="CategoryComboBox" layoutX="302.0" layoutY="359.0" prefWidth="150.0" promptText="Categorias" />
+      <Button fx:id="AddButton" layoutX="37.0" layoutY="417.0" mnemonicParsing="false" onAction="#addGameToCategory" prefHeight="44.0" prefWidth="151.0" style="-fx-background-radius: 20;" text="Añadir el juego">
+         <font>
+            <Font name="Cambria Math" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="back" fitHeight="51.0" fitWidth="54.0" layoutX="26.0" layoutY="31.0" onMouseClicked="#changeSceneToCategoryConfig" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MaterialSymbolsArrowCircleLeftOutlineRounded.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="info" fitHeight="44.0" fitWidth="37.0" layoutX="704.0" layoutY="31.0" onMouseClicked="#ShowInfo" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MdiInformationVariantCircle.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="DeleteButton" layoutX="570.0" layoutY="417.0" mnemonicParsing="false" onAction="#deleteGameFromCategory" prefHeight="44.0" prefWidth="151.0" style="-fx-background-radius: 20;" text="Eliminar el juego">
+         <font>
+            <Font name="Cambria Math" size="16.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="DeleteGameComboBox" layoutX="570.0" layoutY="359.0" prefWidth="150.0" promptText="Juegos" />
+      <Text fill="#4851ff" layoutX="541.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Elige el juego para eliminar" textAlignment="CENTER" wrappingWidth="208.462646484375">
+         <font>
+            <Font name="Cambria Math" size="30.0" />
+         </font>
+      </Text>
+      <Line endX="119.23825073242188" layoutX="623.0" layoutY="348.0" startX="-74.99999237060547" />
+      <TableView fx:id="GameTableView" layoutX="43.0" layoutY="89.0" prefHeight="161.0" prefWidth="668.0">
+        <columns>
+          <TableColumn fx:id="GameNameColumn" prefWidth="380.0000228881836" text="Nombre" />
+          <TableColumn fx:id="GamePlatformColumn" prefWidth="287.1999816894531" text="Plataforma" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>

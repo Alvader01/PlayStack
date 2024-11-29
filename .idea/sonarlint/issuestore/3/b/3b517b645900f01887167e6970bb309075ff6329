@@ -1,21 +1,22 @@
 
-ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¶½¸Å8òÁõæ¶2J$116fcfa3-46cb-44a4-aace-be2f8c909bef
-	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(áÎê¥øÿÿÿÿ8óÁõæ¶2J$a2e0c487-3b6c-4b03-abbe-cbb8cbeae6df
-	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(ÿßê€øÿÿÿÿ8óÁõæ¶2J$15db5fbe-79ef-48a5-9046-f458abb6ed93
-ˆ	java:S112u"FDefine and throw a dedicated exception instead of using a generic one.(ìÖ¯½8óÁõæ¶2J$4b2f8001-22e8-4869-ac37-7ca288187297
-‰	java:S112Š"FDefine and throw a dedicated exception instead of using a generic one.(Ûß›8óÁõæ¶2J$5d4c5ecd-026e-403b-9a67-21d73ec0a26d
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8õÁõæ¶2J$3487b4ab-c856-43e5-9c4a-89d179f6d7cf
+ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¶½¸Å8ÑÜãÂ·2J$071bd62a-6f36-4c5c-a868-a1836ba0ee8c
+	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(áÎê¥øÿÿÿÿ8ÑÜãÂ·2J$4e8dcf6f-4c0d-4e4d-97e0-60a4a559c552
+	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(ÿßê€øÿÿÿÿ8ÒÜãÂ·2J$deee67a3-6ec5-4aac-af68-779f8cdc9ae8
+ˆ	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.(ìÖ¯½8ÒÜãÂ·2J$b3f14d09-d6e0-4ad5-8d1c-620130e6ca3a
+‰	java:S112ˆ"FDefine and throw a dedicated exception instead of using a generic one.(Ûß›8ş­çÂ·2J$e8763b87-9ff2-42e9-85fb-7fa517a451f8
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8ÔÜãÂ·2J$ca707bc3-f484-47c5-98ef-61d6f883ca67
 É
-java:S1186^"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8üÁõæ¶2J$6d1142b2-b9a1-49a4-8dea-833e533e628a
+java:S1186]"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8ÜÜãÂ·2J$f8e0fb60-6f67-439f-b623-eec161f4e948
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(…şà°øÿÿÿÿ8ÿÁõæ¶2J$f3efe17e-ac5f-4fe3-a5e2-77187df52745
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(…şà°øÿÿÿÿ8ŞÜãÂ·2J$e46c1306-a003-412e-90e0-2862007a1709
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(›ıÿÿÿÿÿ8ÿÁõæ¶2J$6770f108-930e-4d6a-bae0-ee2f023cf5d9
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(›ıÿÿÿÿÿ8ßÜãÂ·2J$4f0d608b-5a8b-4bea-9ea0-73d456fc6755
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ìˆ»íşÿÿÿÿ8ÿÁõæ¶2J$311f16b5-cbea-4100-8759-b5fe8e000618
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ìˆ»íşÿÿÿÿ8ßÜãÂ·2J$5eedcfab-d0ab-4e9c-a956-c6eccb546075
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(×Ğ÷Æ8ÿÁõæ¶2J$f56b5fe9-2d1e-4653-a1a4-d41298ad0303
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(“„¬Ñ8ßÜãÂ·2J$f35bc8da-2cdb-4e99-9ea2-13b761eff7a1
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÖÇÓøÿÿÿÿ8ÿÁõæ¶2J$137536d6-76b7-4b27-a743-2da1a6f25bc6
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(«Ç…¸ÿÿÿÿÿ8ßÜãÂ·2J$a687d2c9-091a-4ea8-a4af-4c3d4c40e8cb
+m	java:S106,"+Replace this use of System.out by a logger.(ğòü„8Ó¯§Ã·2J$85944d39-e66d-4382-9388-8c9d0b317f85
 n
-java:S1168Z"+Return an empty collection instead of null.(¥¹ï8„Âõæ¶2J$5889e8c6-26d7-4370-bd4e-e1279754cf42
+java:S1168Y"+Return an empty collection instead of null.(¥¹ï8ãÜãÂ·2J$d39f00ce-d152-4dea-b57a-cc251235a63e

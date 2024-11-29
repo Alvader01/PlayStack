@@ -1,0 +1,14 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£íñƒÿÿÿÿÿ8î¶ÉÁ·2J$4e0de657-0d37-4930-8ff7-93cb08863638
+
+java:S2095Q"EUse try-with-resources or close this "GameDAO" in a "finally" clause.(³å ùÿÿÿÿ8€·ÉÁ·2J$04c3ad9e-9c26-4ce7-aef1-b33430fafe3c
+
+java:S2095y"EUse try-with-resources or close this "GameDAO" in a "finally" clause.(³å ùÿÿÿÿ8€·ÉÁ·2J$fae711b1-0a74-4615-9003-2dad018c6671
+™	java:S116"WRename this field "GameComboBox" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÏÁÉ8·ÉÁ·2J$d259ec36-0e69-4a26-a4dc-e9386f69bcb0
+š	java:S116"XRename this field "GameTableView" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚éŠ“8·ÉÁ·2J$1cc24a7d-3532-431d-9415-575f5fdea7b8
+•	java:S116"SRename this field "IdColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•åî8·ÉÁ·2J$268a8e02-4d03-46e9-993b-0a0aa2b81c54
+œ	java:S116"URename this field "NameColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Ò¦ øÿÿÿÿ8·ÉÁ·2J$c196318b-a75c-4517-bf26-8b2cec8b8ccf
+›	java:S116!"YRename this field "PlatformColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é“°š8·ÉÁ·2J$8b9f5a14-fe56-4892-afbb-fc35052d18df
+É
+java:S11863"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8·ÉÁ·2J$7e68239a-de83-40e5-b920-27ddc32dd4e8
+‘	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÒ§Ú8·ÉÁ·2J$d4032121-e78e-4420-aaa5-299859ba1c48

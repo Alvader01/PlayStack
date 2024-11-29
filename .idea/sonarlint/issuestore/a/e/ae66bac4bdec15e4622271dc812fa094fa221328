@@ -1,0 +1,15 @@
+
+	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‚›½¾·2J$a732fd24-837f-48e7-8081-5c6ce4d44e69
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£íñƒÿÿÿÿÿJ$0fa0659b-6392-4506-91a3-ee23417e118b
+ˆ
+java:S2095A"EUse try-with-resources or close this "GameDAO" in a "finally" clause.(ö®íª8‡Ã¼¾·2J$2a82a6c5-bd08-4767-9e94-92e690621308
+ˆ
+java:S20954"EUse try-with-resources or close this "GameDAO" in a "finally" clause.(ö®íª8İ³ÌÁ·2J$9d0ec06a-798f-4dcd-9767-cf73ab3bf36d
+	java:S116"MRename this field "Id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ô¶´8ŞŸ«¾·2J$8b28ab6a-aa78-43fc-998c-e826e6490808
+É
+java:S1186;"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8ŠÃ¼¾·2J$161485fa-718a-4273-b457-7e65b200e271
+œ
+java:S1450+"TRemove the "games" field and declare it as a local variable in the relevant methods.(òÄÌÅùÿÿÿÿ8àŸ«¾·2J$d7796467-fea5-49f0-9680-a2879a578816
+
+java:S11175"9Rename "games" which hides the field declared at line 43.(ºã­¾üÿÿÿÿ8äŸ«¾·2J$2bb62b19-152b-4583-8d21-16cef267e6c6
+	java:S100u"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÒ§Ú8íŸ«¾·2J$8f0be45f-fcaa-45e7-9486-5c139f5b2fad

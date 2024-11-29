@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.alvader01.View.DeleteGameController">
+   <children>
+      <Text fill="#4851ff" layoutX="305.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lista de juegos">
+         <font>
+            <Font name="Cambria Math" size="24.0" />
+         </font>
+      </Text>
+
+      <TableView fx:id="GameTableView" layoutX="26.0" layoutY="97.0" prefHeight="200.0" prefWidth="713.0">
+         <columns>
+            <TableColumn fx:id="IdColumn" prefWidth="63.99997138977051" text="ID" />
+            <TableColumn fx:id="NameColumn" prefWidth="412.80001068115234" text="Nombre" />
+            <TableColumn fx:id="PlatformColumn" prefWidth="235.99996948242188" text="Plataforma" />
+         </columns>
+      </TableView>
+
+      <ImageView fx:id="back" fitHeight="51.0" fitWidth="54.0" layoutX="26.0" layoutY="27.0" onMouseClicked="#changeSceneToGameConfig" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MaterialSymbolsArrowCircleLeftOutlineRounded.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="info" fitHeight="44.0" fitWidth="37.0" layoutX="702.0" layoutY="34.0" onMouseClicked="#ShowInfo" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MdiInformationVariantCircle.png" />
+         </image>
+      </ImageView>
+
+      <Text fill="#4851ff" layoutX="285.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecciona el juego" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Math" size="24.0" />
+         </font>
+      </Text>
+
+      <Button fx:id="deleteButton" layoutX="307.0" layoutY="410.0" mnemonicParsing="false" onAction="#deleteGame" prefHeight="44.0" prefWidth="151.0" style="-fx-background-radius: 20;" text="Borrar Juego">
+         <font>
+            <Font name="Cambria Math" size="16.0" />
+         </font>
+      </Button>
+
+      <Line endX="113.36325073242188" endY="-1.000030517578125" layoutX="384.0" layoutY="336.0" startX="-118.00003051757812" startY="-1.000030517578125" />
+
+      <ComboBox fx:id="GameComboBox" layoutX="286.0" layoutY="356.0" prefHeight="28.0" prefWidth="191.0" />
+   </children>
+</Pane>

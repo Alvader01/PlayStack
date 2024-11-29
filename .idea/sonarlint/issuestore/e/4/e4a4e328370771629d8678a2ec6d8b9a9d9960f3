@@ -1,0 +1,13 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£íñƒÿÿÿÿÿ8¸×Å·2J$25595c71-9b6b-4488-84c1-1cb127f3fa45
+
+java:S2095>"EUse try-with-resources or close this "UserDAO" in a "finally" clause.(äçü™üÿÿÿÿ8É×Å·2J$8b51eaa3-9bf0-4cc3-bcba-01c09e32a6dc
+
+java:S2095g"EUse try-with-resources or close this "UserDAO" in a "finally" clause.(äçü™üÿÿÿÿ8É×Å·2J$00ec73a3-d429-47df-b860-44b159da9996
+˜
+java:S3655f"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ŸªÍäùÿÿÿÿ8Ê×Å·2J$e317350d-2d74-440a-b713-e7df872f7173
+É
+java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8Ë×Å·2J$15284f77-6833-422c-9b75-384856068af2
+—
+java:S1450)"TRemove the "users" field and declare it as a local variable in the relevant methods.(Šî„¬8Ë×Å·2J$96c78728-6c24-4789-b494-33c70e481246
+	java:S100|"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÒ§Ú8Ó×Å·2J$df40fe77-d0ed-45a1-81cd-0f096e44e383

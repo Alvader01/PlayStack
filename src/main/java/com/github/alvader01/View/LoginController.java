@@ -77,7 +77,7 @@ public class LoginController extends Controller implements Initializable {
 
                 if (hashedInputPassword != null && hashedInputPassword.equals(userFromDB.getPassword())) {
                     UserSession.login(userFromDB);
-                    //changeSceneToMainPage();
+                    changeSceneToMainPage();
                 } else {
                     AppController.ShowAlertsErrorLoginPassword();
                 }
@@ -87,9 +87,9 @@ public class LoginController extends Controller implements Initializable {
         }
     }
 
-    /*public void changeSceneToMainPage() throws IOException{
-        App.currentController.changeScene(Scenes.MAIN,null);
-    }*/
+    public void changeSceneToMainPage() throws IOException{
+        App.currentController.changeScene(Scenes.MAINPAGE,null);
+    }
 
     public void changeSceneToRegister() throws IOException{
         App.currentController.changeScene(Scenes.REGISTER,null);

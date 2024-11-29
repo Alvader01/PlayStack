@@ -7,19 +7,17 @@ public class Game {
     private int id;
     private String name;
     private String platform;
-    private String description;
 
-    public Game(int id, String name, String platform, String description) {
+    public Game(int id, String name, String platform) {
         this.id = id;
         this.name = name;
         this.platform = platform;
-        this.description = description;
     }
 
-    public Game(String name, String platform, String description) {
+    public Game(String name, String platform) {
         this.name = name;
         this.platform = platform;
-        this.description = description;
+
     }
 
     public Game() {
@@ -49,13 +47,6 @@ public class Game {
         this.platform = platform;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -76,7 +67,6 @@ public class Game {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", platform='" + platform + '\'' +
-                ", description='" + description + '\'' +
                 '}';
     }
 

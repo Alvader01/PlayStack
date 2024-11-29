@@ -1,23 +1,21 @@
 
-	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(ÃŸè°ùÿÿÿÿ8ù¼é½¶2J$d3f60f22-7138-40b9-8f74-99549796b205
-	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(¢Ğùÿÿÿÿ8ú¼é½¶2J$2f7661c6-2526-4c82-bd3b-91df1172fe9f
-‰	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(‰£½8ú¼é½¶2J$6d38d2ba-6dcb-4ca3-81dc-9ea0761f7330
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8ı¼é½¶2J$86372d9d-70a0-4ef7-8a96-174413190cce
+ˆ	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(€ˆ–¼8ú¼é½¶2J$309087b4-7f74-4134-89a2-76510563acf9
+	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(¢Ğùÿÿÿÿ8ú¼é½¶2J$76521562-c138-46a8-8b60-ac4aed34b1ba
+	java:S112¥"FDefine and throw a dedicated exception instead of using a generic one.(Å£Úüÿÿÿÿ8ºïÊ·2J$ec54bf65-49cd-4647-a051-1a47b3af2962
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8ı¼é½¶2J$1606c560-2704-47e8-9e66-2cf4faa124e9
 Ê
-java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8½é½¶2J$d29edc50-21be-4a59-9b55-20d79ee96825
+java:S1186¬"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8½é½¶2J$01c3e5a5-eb1a-45b4-9add-92cfc3899523
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(œµ‰Ğ8ƒ½é½¶2J$9ba98dfc-586a-43b7-8829-bbddbff2b58a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(œµ‰Ğ8ƒ½é½¶2J$9cc11678-25a1-43e6-a4ed-345140c73642
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÒÉª˜üÿÿÿÿ8„½é½¶2J$6b5f2029-475d-467f-8bfc-6071e1ac89ee
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÒÉª˜üÿÿÿÿ8„½é½¶2J$0cca0628-f394-4b4d-9eb6-9523d99591d3
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(’âÇ¼8„½é½¶2J$48dbe28b-0e22-4450-84ab-696e3fbe75c3
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(’âÇ¼8„½é½¶2J$ad9684d8-0b16-4d08-8dd4-a10b17e5dfd4
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(İ–½øÿÿÿÿ8„½é½¶2J$579cae9c-ea46-4364-abdb-8c7e358de318
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(İ–½øÿÿÿÿ8„½é½¶2J$20ff05d7-e556-4201-837d-fba86646cb87
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¹ÒÜ¬øÿÿÿÿ8„½é½¶2J$d6559238-8b26-42d4-9b80-bfd7c8075837
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¹ÒÜ¬øÿÿÿÿ8„½é½¶2J$f47878cc-d7d9-46c6-af8c-8443f8407df2
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(µ™¦şÿÿÿÿ8„½é½¶2J$2113f4e7-0454-4868-9360-afbab2fe4f43
-w
-java:S2695#"/This "PreparedStatement" only has 3 parameters.(ù™÷ƒüÿÿÿÿ8û®òÃ¶2J$41bdaa89-6ddd-433a-a11f-83e5a7ca1b03
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¢èáûÿÿÿÿÿ8ÌÙÆ·2J$28811f0a-5e54-4cdc-8dd2-2887a2b46be2
 g
-java:S6905"Don't use the query "SELECT *".(µ™¦şÿÿÿÿ8½é½¶2J$d60451be-d341-4c30-ae91-40ac78259d2d
+java:S6905"Don't use the query "SELECT *".(¢èáûÿÿÿÿÿ8½é½¶2J$cda17695-4061-481c-a7ae-c6413760df87

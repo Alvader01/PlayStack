@@ -1,0 +1,19 @@
+
+	java:S112O"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¢Ô’¾·2J$00db82ac-9f46-43a6-bd97-b1f8e88844d7
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£íñƒÿÿÿÿÿ8üùØŽ·2J$fd1e5e63-4d94-4f0d-a263-277e62290016
+‹
+java:S20956"IUse try-with-resources or close this "CategoryDAO" in a "finally" clause.(‹—-8íý—¾·2J$ec0be60a-c3a6-433d-8a95-0a57b861f486
+’
+java:S2095"IUse try-with-resources or close this "CategoryDAO" in a "finally" clause.(þÃãøÿÿÿÿ8Èª¹”·2J$1b5074b9-4fd5-439c-9de3-2d07f3ac897c
+‹
+java:S2095C"IUse try-with-resources or close this "CategoryDAO" in a "finally" clause.(‹—-8ŠúØŽ·2J$219bacb2-a0c8-4d6a-9b4c-7c9cd41fa9ae
+	java:S116 "MRename this field "Id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸õ÷ô8‹úØŽ·2J$25c056dc-564d-4a52-be69-01a7a663a5d8
+É
+java:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8ŒúØŽ·2J$7f1825d4-60df-469f-804a-7bc2890e62c8
+¡
+java:S1450-"YRemove the "categories" field and declare it as a local variable in the relevant methods.(•±Ä–ùÿÿÿÿ8úØŽ·2J$c0b35e74-82fb-40d2-851d-5939b9663098
+†
+java:S11177">Rename "categories" which hides the field declared at line 45.(¤èîóøÿÿÿÿ8â”¹”·2J$680c6a89-0513-4434-a171-b466615a2f1b
+š
+java:S3776B"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(•‘ÝŸüÿÿÿÿ8ÖÔ’¾·2J$1139830a-91be-41aa-a28f-881697a204fe
+‘	java:S100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÒ§Ú8šúØŽ·2J$9ba489cb-893b-4e04-9215-01f8edb64d95

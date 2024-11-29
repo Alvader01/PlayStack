@@ -1,30 +1,28 @@
 
-ˆ	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(›íÁƒ8¬ˆ¹æ¶2J$cd53c9ce-b21f-47c4-8bb4-a59b1e741a0b
-ˆ	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(„ª¥å8­ˆ¹æ¶2J$70a9c04f-a812-4862-97cf-6a82bdba4981
-ˆ	java:S112J"FDefine and throw a dedicated exception instead of using a generic one.(”ü’›8­ˆ¹æ¶2J$e42d551e-e4f4-4d37-9c09-e824cb029906
-ˆ	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(ìÖ¯½8®ˆ¹æ¶2J$eec4e8c8-fe73-49f4-a07b-1fabb147ca74
-	java:S112{"FDefine and throw a dedicated exception instead of using a generic one.(ãõµ’şÿÿÿÿ8®ˆ¹æ¶2J$83b61453-56ae-4d06-a05e-e915c117798b
-	java:S112Á"FDefine and throw a dedicated exception instead of using a generic one.(æß°ÿÿÿÿÿ8®ˆ¹æ¶2J$c2e93aa2-82c6-4899-a67d-ff8f546651c6
-”
-java:S1192^"LDefine a constant instead of duplicating this literal "description" 3 times.(¨éÀúÿÿÿÿ8±¸Èæ¶2J$2120738c-34c9-4cbf-ba66-dfb74960aad6
+ˆ	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(›íÁƒ8”¡ÑÀ·2J$3fe24840-5bd1-4492-a675-f44ce01a671b
+ˆ	java:S1128"FDefine and throw a dedicated exception instead of using a generic one.(„ª¥å8”¡ÑÀ·2J$3beb70b8-2f42-4b8d-b66f-8e719de0fd94
+ˆ	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(³Æ8”¡ÑÀ·2J$ba523a0b-74fd-49c8-a9b6-d4256582df7d
+ˆ	java:S112["FDefine and throw a dedicated exception instead of using a generic one.(ìÖ¯½8”¡ÑÀ·2J$9f5a1910-d1f2-49d2-98e3-056cb141f176
+	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.(ãõµ’şÿÿÿÿ8•·ÔÀ·2J$5f9a7b1f-c635-4cea-ab23-0ee81b6c3cf0
+	java:S112¸"FDefine and throw a dedicated exception instead of using a generic one.(æß°ÿÿÿÿÿ8€Ì²Á·2J$f8b6200a-dcea-4327-9e57-2d35402ef59d
+‘
+java:S1192W"IDefine a constant instead of duplicating this literal "platform" 5 times.(¦¼ê“ùÿÿÿÿ8–·ÔÀ·2J$8276bce2-0770-4311-9cc3-0b662dab5b84
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8—¡ÑÀ·2J$801220a0-54db-4999-8a02-3e6bbaad5840
+É
+java:S1186z"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8¥¡ÑÀ·2J$6352b012-ba30-4173-9087-186ba20aea9e
 
-java:S1192]"JDefine a constant instead of duplicating this literal "dimension" 3 times.(ü½8¯ˆ¹æ¶2J$a349e881-7b5e-4ed9-8451-289c0219bea9
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8±ˆ¹æ¶2J$7f383677-b670-4f5e-8946-eb284c2a5e10
-Ê
-java:S1186‚"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8Áˆ¹æ¶2J$e91ab6c3-c050-433b-9305-49d212cbe07f
-‡
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¡—åU8Åˆ¹æ¶2J$0cb0dbe6-3114-44ba-b536-6ad15a7d841b
-
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ïĞ¯Âÿÿÿÿÿ8Åˆ¹æ¶2J$66929eca-bec0-43be-92b8-a8e88968d644
-
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(—û¯µşÿÿÿÿ8Åˆ¹æ¶2J$0d2d0d21-1c37-4824-86e8-1345c68409d4
-
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(›À¸€øÿÿÿÿ8Åˆ¹æ¶2J$af07fda8-539d-4c98-96d8-62b293b7501e
-
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(†‰ÍÑÿÿÿÿÿ8Åˆ¹æ¶2J$f9786be3-6fc0-4e43-8347-382c869a9c57
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ÔÕ¸øÿÿÿÿ8¨¡ÑÀ·2J$2a17d06c-1fdc-4d75-aa94-0a0221982ae1
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(õ£­È8Æˆ¹æ¶2J$a3269193-a034-4577-9991-082de6a8e058
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(´•İø8¨¡ÑÀ·2J$5d59dc3c-4a79-4838-89f6-d3849c388e06
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(êÜ¤æùÿÿÿÿ8¨¡ÑÀ·2J$3db728b5-2fcc-4e99-aa1e-9f5b4adee5b4
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(›„¹8Æˆ¹æ¶2J$c36c0828-6598-443c-b56d-88e2e00ca560
-w
-java:S2695&"/This "PreparedStatement" only has 4 parameters.(ÅèÕ˜ûÿÿÿÿ8Éˆ¹æ¶2J$f77ed4b5-6dff-4a36-afc4-f3bff222036e
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(„„µÑ8¨¡ÑÀ·2J$1be821e0-9712-466b-b9a4-a73d34b5bdb1
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÿŞ8¨¡ÑÀ·2J$6abf27c1-7d3c-49b2-98e8-437f3bb137d3
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¿Å©íûÿÿÿÿ8¨¡ÑÀ·2J$88fdfbf7-68af-4871-acde-56b94c2e024c
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(õ£­È8¨¡ÑÀ·2J$09e9a4fb-198a-4fa9-a9aa-9ee458954bec
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ËÆ€ï8¨¡ÑÀ·2J$6aa0e84c-da29-4186-ae1c-a90649c5db6d

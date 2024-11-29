@@ -1,16 +1,20 @@
 
-	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(ÃŸè°ùÿÿÿÿ8€İÙæ¶2J$f4e1ee5d-bf6c-4154-aa59-ce5348367637
-	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(¢Ğùÿÿÿÿ8€İÙæ¶2J$24dc4bbf-b919-4102-9ca9-d724241bcbe0
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8ƒİÙæ¶2J$ec43c537-14ca-47de-8326-bd6a68e39479
+	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(ÃŸè°ùÿÿÿÿ8ß¶”·2J$31a1a25f-4fa1-40c3-8799-19d214ca9f48
+	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(¢Ğùÿÿÿÿ8ß¶”·2J$5a33f3e0-311b-4318-9f9e-ab7bcc717070
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²€œœıÿÿÿÿ8ã¶”·2J$ec082493-bf88-4a81-ba9c-f0b81c1f81dc
+“
+java:S2095›"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(£üÜŸ8…¶”·2J$bf01f5d5-5169-4164-95bd-5dd54c62d73c
 Ê
-java:S1186Ñ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8™İÙæ¶2J$758c4897-fa3e-48da-9db3-1aeacbd3d698
+java:S1186Ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8‡¶”·2J$1010216d-9c14-4701-b929-9780bc26061a
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(éˆŸÌ8›İÙæ¶2J$68ba8350-d34b-4bce-8124-4cae4281579a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(éˆŸÌ8Š¶”·2J$f75902e4-c1e5-48ca-aafb-99cd6fcbb492
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ş¿¼Âúÿÿÿÿ8İÙæ¶2J$f1aa3388-d455-46b9-848d-57494923e6a2
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ş¿¼Âúÿÿÿÿ8Š¶”·2J$c17da39c-f82c-4150-bf5e-f2473922eca6
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(µª³É8İÙæ¶2J$5a09e4fa-8f54-4caf-9f94-b5952dc8e55d
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(µª³É8Š¶”·2J$62cf331c-6e2f-4336-914d-d5ebd51a90dd
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‹„íØ8İÙæ¶2J$825b3a67-3c77-4d69-8540-1c541ea76458
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‹„íØ8Š¶”·2J$8b96f692-2ccc-4db0-b22a-205d24506d5c
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÃÌä«şÿÿÿÿ8İÙæ¶2J$d197f60b-c166-429a-ba06-52753ee1ea13
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÃÌä«şÿÿÿÿ8Š¶”·2J$bdb81e0d-48ef-496c-8677-8c905e1be030
+s	java:S106’"+Replace this use of System.out by a logger.(Äêˆõøÿÿÿÿ8™¶”·2J$c48ff2a7-bfc1-4e8d-b693-3df86a0f65b2
+n	java:S106•"+Replace this use of System.out by a logger.(ô²†Ö8™¶”·2J$acf34e99-3398-43c2-9f44-274e45123ee6

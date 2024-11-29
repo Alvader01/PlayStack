@@ -129,10 +129,16 @@ public class AppController extends Controller implements Initializable {
         alertInfoRegister.showAndWait();
 
     }
-    public static void  ShowInformationFishTank(){
+    public static void  ShowInformationCategory(){
         alertInfoRegister.setHeaderText(null);
         alertInfoRegister.setTitle("Informacion");
-        alertInfoRegister.setContentText("Para editar una acuario haz doble click en el campo que quieras editar");
+        alertInfoRegister.setContentText("Para editar una categoria haz doble click en el campo que quieras editar");
+        alertInfoRegister.showAndWait();
+    }
+    public static void  ShowInformationGame(){
+        alertInfoRegister.setHeaderText(null);
+        alertInfoRegister.setTitle("Informacion");
+        alertInfoRegister.setContentText("Para editar un juego haz doble click en el campo que quieras editar");
         alertInfoRegister.showAndWait();
     }
     public static void  ShowInformationDeleteUser(){
@@ -155,5 +161,100 @@ public class AppController extends Controller implements Initializable {
         alert.setContentText("No se pudo eliminar el usuario");
         alert.showAndWait();
     }
+    public static void ShowAlertsErrorUserNotActive(){
+        alert.setTitle("Error");
+        alert.setContentText("No hay un usuario activo. Inicia sesión nuevamente.");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsSuccessfullyDeleteCategory(){
+        alert2.setTitle("Exito");
+        alert2.setContentText("Categoria eliminada con exito");
+        alert2.showAndWait();
+    }
+    public static void ShowAlertsSuccessfullyDeleteGame(){
+        alert2.setTitle("Exito");
+        alert2.setContentText("Juego eliminada con exito");
+        alert2.showAndWait();
+    }
+    public static void ShowAlertsErrorCreatingCategory(){
+        alert.setTitle("Error");
+        alert.setContentText("No se pudo registrar la categoria");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsGameAlreadyExistsInCategory(){
+        alert.setTitle("Error");
+        alert.setContentText("El juego ya esta en la categoria");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsSuccessfullyAddGameToCategory(){
+        alert2.setTitle("Exito");
+        alert2.setContentText("Juego añadido con exito");
+        alert2.showAndWait();
+    }
+    public static void  ShowInformationAddGame(){
+        alertInfoRegister.getDialogPane().setPrefHeight(200);
+        alertInfoRegister.getDialogPane().setPrefWidth(300);
+        alertInfoRegister.setHeaderText(null);
+        alertInfoRegister.setTitle("Informacion");
+        alertInfoRegister.setContentText("Para añadir un juego a una categoria selecciona que juegodeseas añadir" +
+                "y a que categoria deseas añadirlo. Para eliminarla lo mismo pero pulsando el boton eliminar");
+        alertInfoRegister.showAndWait();
+    }
+    public static void ShowAlertsErrorCreatingGame(){
+        alert.setTitle("Error");
+        alert.setContentText("No se pudo registrar el juego");
+        alert.showAndWait();
+    }
+
+    public static void ShowAlertsGameNotFound(){
+        alert.setTitle("Error");
+        alert.setContentText("No se pudo encontrar el juego");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsErrorDeleteCategory(){
+        alert.setTitle("Error");
+        alert.setContentText("No se pudo eliminar la categoria");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsErrorDeleteGame(){
+        alert.setTitle("Error");
+        alert.setContentText("No se pudo eliminar el juego");
+        alert.showAndWait();
+    }
+    public static void  ShowInformationDeleteCategory(){
+        alertInfoRegister.getDialogPane().setPrefHeight(200);
+        alertInfoRegister.getDialogPane().setPrefWidth(300);
+        alertInfoRegister.setHeaderText(null);
+        alertInfoRegister.setTitle("Informacion");
+        alertInfoRegister.setContentText("Para borrar la categoria que deseas eligela en la lista y pulsa el boton de eliminar");
+        alertInfoRegister.showAndWait();
+
+    }
+    public static void  ShowInformationDeleteGame(){
+        alertInfoRegister.getDialogPane().setPrefHeight(200);
+        alertInfoRegister.getDialogPane().setPrefWidth(300);
+        alertInfoRegister.setHeaderText(null);
+        alertInfoRegister.setTitle("Informacion");
+        alertInfoRegister.setContentText("Para borrar el juego que deseas eligela en la lista y pulsa el boton de eliminar");
+        alertInfoRegister.showAndWait();
+
+    }
+
+    public static void ShowAlertsCategoryAlreadyExists(){
+        alert.setTitle("Error");
+        alert.setContentText("La categoria ya existe");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsSuccessfullyCreateCategory(){
+        alert2.setTitle("Exito");
+        alert2.setContentText("Categoria registrada con exito");
+        alert2.showAndWait();
+    }
+    public static void ShowAlertsSuccessfullyCreateGame(){
+        alert2.setTitle("Exito");
+        alert2.setContentText("Juego registrado con exito");
+        alert2.showAndWait();
+    }
+
 
 }
