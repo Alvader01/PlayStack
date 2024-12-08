@@ -1,15 +1,15 @@
 
 ¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£íñƒÿÿÿÿÿ8òŠ¬Â·2J$75ce00f3-8b65-470f-8bbf-efbb241d3e5f
+’
+java:S2095”"IUse try-with-resources or close this "CategoryDAO" in a "finally" clause.(£˜ñüÿÿÿÿ8ƒ½‚Ã·2J$c32c7dfd-f223-4aee-a6d0-87576ca13e3c
 —
 java:S2095g"OUse try-with-resources or close this "GameInCategoryDAO" in a "finally" clause.(Ğ½ö–úÿÿÿÿ8ÒóşÂ·2J$322b2761-b955-43cd-a6e5-c11ee38148c4
 ˆ
 java:S2095}"EUse try-with-resources or close this "GameDAO" in a "finally" clause.(ö®íª8ƒ½‚Ã·2J$48371c1c-edd6-4e9c-b793-882bd6321461
-‰
-java:S2095™"EUse try-with-resources or close this "GameDAO" in a "finally" clause.(ö®íª8ö¢ƒÃ·2J$a43f23b0-7de4-4f78-a0d2-153873210413
 ‘
 java:S2095x"IUse try-with-resources or close this "CategoryDAO" in a "finally" clause.(£˜ñüÿÿÿÿ8÷¢ƒÃ·2J$e8a0ebbd-4023-4b85-9c4e-8a54dd5b36f0
-’
-java:S2095”"IUse try-with-resources or close this "CategoryDAO" in a "finally" clause.(£˜ñüÿÿÿÿ8ƒ½‚Ã·2J$c32c7dfd-f223-4aee-a6d0-87576ca13e3c
+‰
+java:S2095™"EUse try-with-resources or close this "GameDAO" in a "finally" clause.(ö®íª8ö¢ƒÃ·2J$a43f23b0-7de4-4f78-a0d2-153873210413
 ¢	java:S116"[Rename this field "CategoryComboBox" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İê’Øÿÿÿÿÿ8„‹¬Â·2J$a1758fc0-ebcb-4c54-a2af-fe8db45be827
 Ÿ	java:S116"XRename this field "GamesComboBox" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¼ºÖûÿÿÿÿ8„‹¬Â·2J$bd7a3a1a-414d-4d72-81b0-484bbcc3db62
 ¤	java:S116!"]Rename this field "DeleteGameComboBox" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã½µûùÿÿÿÿ8„‹¬Â·2J$735755cf-cd33-4f7c-aa98-6219685418f3

@@ -125,7 +125,7 @@ public class AppController extends Controller implements Initializable {
     public static void  ShowInformationUser(){
         alertInfoRegister.setHeaderText(null);
         alertInfoRegister.setTitle("Informacion");
-        alertInfoRegister.setContentText("Para editar una acuario haz doble click en el campo que quieras editar");
+        alertInfoRegister.setContentText("Para editar una categoria haz doble click en el campo que quieras editar");
         alertInfoRegister.showAndWait();
 
     }
@@ -139,15 +139,6 @@ public class AppController extends Controller implements Initializable {
         alertInfoRegister.setHeaderText(null);
         alertInfoRegister.setTitle("Informacion");
         alertInfoRegister.setContentText("Para editar un juego haz doble click en el campo que quieras editar");
-        alertInfoRegister.showAndWait();
-    }
-    public static void  ShowInformationDeleteUser(){
-        alertInfoRegister.getDialogPane().setPrefHeight(200);
-        alertInfoRegister.getDialogPane().setPrefWidth(300);
-        alertInfoRegister.setHeaderText(null);
-        alertInfoRegister.setTitle("Informacion");
-        alertInfoRegister.setContentText("Para borrar el usuario que deaseas introduce su username." +
-                "Aqui no podras actualizar los datos de usuario");
         alertInfoRegister.showAndWait();
     }
 

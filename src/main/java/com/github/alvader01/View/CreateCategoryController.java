@@ -72,7 +72,7 @@ public class CreateCategoryController extends Controller implements Initializabl
         Category category = getCategoryValues();
 
         if (category == null) {
-            AppController.ShowAlertsErrorCreatingCategory();
+            AppController.ShowAlertsSuccessfullyCreateCategory();
             return;
         }
 
@@ -81,13 +81,13 @@ public class CreateCategoryController extends Controller implements Initializabl
             Category savedCategory = categoryDAO.saveCategory(category, currentUser);
 
             if (savedCategory != null) {
-                AppController.ShowAlertsSuccessfullyCreateCategory();
+                AppController.ShowAlertsErrorCreatingCategory();
                 changeSceneToCategoryConfig();
             } else {
                 AppController.ShowAlertsErrorCreatingCategory();
             }
         } catch (Exception e) {
-            AppController.ShowAlertsErrorCreatingCategory();
+            AppController.ShowAlertsSuccessfullyCreateCategory();
         }
     }
 
